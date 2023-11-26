@@ -37,18 +37,20 @@
 ;и возвращает список этих чисел, увеличив предварительно 
 ;каждое число на единицу (inc).
 
+;; (defn increment-numbers [listf]
+;;   (map inc (filter number? listf)))
 
-(defn increment-numbers [listf]
-  (map inc (filter number? listf)))
-
-(increment-numbers [1 3 "ds" 12 -10])
+;; (increment-numbers [1 3 "ds" 12 -10])
 
 
-(defn numbers [] 
-  (let [listEnt (println ">> " read-line)] 
-    (println "Вы ввели: " listEnt)))
 
-(numbers)
+;; Test read-line
+
+;; (defn numbers [] 
+;;   (let [listEnt (println ">> " read-line)] 
+;;     (println "Вы ввели: " listEnt)))
+
+;; (numbers)
 
 
 
